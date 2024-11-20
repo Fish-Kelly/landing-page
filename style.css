@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
 }
-
+/* Header */
 .header {
     display: flex;
     background: #1F2937;
@@ -27,7 +27,7 @@ a {
     padding: 10px;
     border-radius: 50px;
 }
-
+/* Sub-Header */
 .sub-header {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -69,4 +69,54 @@ p {
 
 .sub-header-image img {
     border-radius: 10px;
+}
+/* Information */
+.main {
+    text-align: center;
+}
+
+.title {
+    margin: 30px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 16px;
+    gap: 50px;
+}
+
+.container img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+/* Quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px 
+}
+
+.attribution {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 300px 20px 0;
+    font-size: 12px;
 }
