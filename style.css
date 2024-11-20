@@ -124,13 +124,13 @@ p {
 
 .footer {
    border: solid 10px #3882F6;
-   width: 800px;
-   height: 75px;
    background-color: #3882F6;
+   height: 75px;
    display: flex;
    margin: 50px;
    border-radius: 5px;
    justify-content: space-around;
+   align-items: center;
 }
 
 .footer-left {
